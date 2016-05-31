@@ -1,0 +1,32 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "jbus"
+    },
+	{
+    "storageAccountPrefix": {
+      "value": "jkbneilsensa"
+    },
+    "adminPassword": {
+      "reference": {
+        "keyVault": {
+          "id": "https://jkbkeyvault.vault.azure.net:443/secrets/Nielsen/6e6f47a505ca495d844c8a678d010788"
+        },
+        "secretName": "Nielsen"
+      }
+    },
+    "cmPassword": {
+      "reference": {
+        "keyVault": {
+          "id": "https://jkbkeyvault.vault.azure.net:443/secrets/Nielsen/6e6f47a505ca495d844c8a678d010788"
+        },
+        "secretName": "Nielsen"
+      }
+    },
+    "dnsNamePrefix": {
+      "value": "jkbnsncdh"
+    }
+  }
+}
