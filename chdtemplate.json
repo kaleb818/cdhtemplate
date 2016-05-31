@@ -42,7 +42,7 @@
     },
     "location": {
       "type": "string",
-      "defaultValue": "centralus",
+      "defaultValue": "westus",
       "allowedValues": [
         "westus",
         "eastus",
