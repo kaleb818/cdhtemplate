@@ -17,7 +17,7 @@
     },
     "cmUsername": {
       "type": "string",
-      "defaultValue": "cmadmin",
+      "defaultValue": "jbus",
       "metadata": {
         "description": "User name for the Cloudera Manager"
       }
@@ -42,7 +42,7 @@
     },
     "location": {
       "type": "string",
-      "defaultValue": "westeurope",
+      "defaultValue": "centralus",
       "allowedValues": [
         "westus",
         "eastus",
@@ -71,7 +71,7 @@
     },
     "virtualNetworkName": {
       "type": "string",
-      "defaultValue": "clouderavnet",
+      "defaultValue": "jkbnielsenvnet",
       "metadata": {
         "description": "The name of the virtual network provisioned for the deployment"
       }
@@ -156,35 +156,35 @@
     },
     "company": {
       "type": "string",
-      "defaultValue": "Company",
+      "defaultValue": "SPR",
       "metadata": {
         "description": "Your Company"
       }
     },
     "emailAddress": {
       "type": "string",
-      "defaultValue": "email@yourcompany.com",
+      "defaultValue": "jonathan.bus@spr.com",
       "metadata": {
         "description": "your email"
       }
     },
     "businessPhone": {
       "type": "string",
-      "defaultValue": "123456789",
+      "defaultValue": "8005882300",
       "metadata": {
         "description": "your business phone number"
       }
     },
     "firstName": {
       "type": "string",
-      "defaultValue": "FirstName",
+      "defaultValue": "Jonathan",
       "metadata": {
         "description": "Your FirstName"
       }
     },
     "lastName": {
       "type": "string",
-      "defaultValue": "LastName",
+      "defaultValue": "Bus",
       "metadata": {
         "description": "Your LastName"
       }
