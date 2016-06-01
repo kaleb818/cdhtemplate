@@ -11,7 +11,7 @@
     "adminPassword": {
       "reference": {
         "keyVault": {
-          "id": "https://jkbkeyvault.vault.azure.net:443/secrets/Nielsen/6e6f47a505ca495d844c8a678d010788"
+          "id": "/subscriptions/bbec2183-3b67-450d-8f37-b6edefbfea5b/resourceGroups/jkbkeyvault/providers/Microsoft.KeyVault/vaults/jkbkeyvault"
         },
         "secretName": "Nielsen"
       }
@@ -19,7 +19,7 @@
     "cmPassword": {
       "reference": {
         "keyVault": {
-          "id": "https://jkbkeyvault.vault.azure.net:443/secrets/Nielsen/6e6f47a505ca495d844c8a678d010788"
+          "id": "/subscriptions/bbec2183-3b67-450d-8f37-b6edefbfea5b/resourceGroups/jkbkeyvault/providers/Microsoft.KeyVault/vaults/jkbkeyvault"
         },
         "secretName": "Nielsen"
       }
